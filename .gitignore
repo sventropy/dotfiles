@@ -1,0 +1,15 @@
+# ignore all
+*
+# but not the dot files
+!.*
+# except these
+.DS_Store
+.fastlane
+.gitconfig
+.gitignore_global
+.hgignore_global
+.htaccess
+.Trash/
+.vim/
+.viminfo
+.zsh_history
