@@ -36,3 +36,8 @@ export PATH="$PATH:/Users/svenhennessen/bin/flutter/bin"
 # ZSH syntax highlighting
 # MUST run brew install zsh-syntax-highlighting before, see https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
